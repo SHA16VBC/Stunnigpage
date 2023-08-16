@@ -1,0 +1,147 @@
+.body{
+    margin: 0;
+height: 100vh;
+width: 100vw;  
+
+}
+
+.head{
+    display: flex;
+gap: 350px;
+justify-content: center;
+width: 100%;
+height: 100px;
+align-items: center;
+
+font-family: 'Yantramanav', sans-serif;
+font-weight: 400;
+}
+.head img{
+    width: 150px;
+    height: 60px;
+   
+}
+.head nav{
+display: flex;
+gap: 70px;
+}
+.head nav a { 
+    color: rgba(0,0,0,.4);
+    text-decoration: none;
+    font-size: 18px;
+
+}
+.none:hover{
+    color: black;
+    border-bottom: 3px solid #8071D0;
+    padding-bottom: 2px;
+}
+.head button{
+    border: none;
+    padding: 16px 25px 16px 25px ;
+   
+    background-color: #FFD8DB;
+    color:  #A389CC;
+    border-radius: 22px;
+   cursor: pointer;
+}
+.newsection{
+    display: flex;
+    gap: 70px;
+    
+    justify-content: center;
+    font-family: 'Yantramanav', sans-serif;
+font-weight: 400;
+
+}
+.select h1{
+    font-size: 70px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    
+}
+.landing img {
+   margin-left: 40px;
+    width: 100%;
+    height: 600px;
+
+}
+.select h1 p{ margin: 0;
+    
+}
+.light{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    gap:10px;
+}
+.light button{
+    background-color: #5243C0;
+    color: #ffffff;
+    border: none;
+    padding: 12px 25px 12px 25px ;
+    border-radius: 22px;
+    cursor: pointer;
+}
+.cards{ background-color: rgba(164, 164, 164, 0.1);
+    border-radius: 10px;
+    display: flex;
+    gap: 15px;
+    margin-top: 8px;  
+    width: 380px;
+    cursor: pointer;
+}
+.tick{ margin-left: 15px;
+    background-image: url(tick-gray.png);
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    margin-top: 10px;
+}
+.cards img {
+    margin-top: 10px;
+    height:30px;
+     width:30px;
+}
+.cards p:first-of-type{
+    width :120px;
+}
+.cards p:last-of-type{
+    width: 60px;
+    margin-left: 20px;
+}
+.pinky{
+    margin-top: 65px;
+}
+.tick:hover{
+    background-image: url(tick-blue.png);
+}
+.cards:hover{
+ background-color: white;
+ box-shadow: 1px 1px 10px rgb(156, 156, 156);
+ background-image: url();
+}
+.color, .colors, .colorss, .colorsss{
+    
+    border-radius: 50px;
+    height: 12px;
+    width: 23px;
+    margin-top: 20px;
+}
+/*Dmm design*/
+.color{
+    background-color: #FED7DA;
+}
+/*blurr animation*/
+.colors{
+    background-color: #FD6534 ;
+}
+/*illustration*/
+.colorss{
+    background-color: #9ED095;
+}
+/*refunds*/
+.colorsss{
+    background-color: #FFE4A0 ;
+}
